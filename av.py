@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1ac2to995-zrZeJ6JJjiLWeCHDLFY1c_K
 """
 
-print("Bienvenido al asistente virtual Juanchito Cutuplay \n ¿Que deseas hacer?: \n 1)Deseo hacer una suma \n 2)Deseo hacer una resta \n 3)Deseo hacer una multiplicacion \n 4)Deseo hacer una division")
+print("Bienvenido al asistente virtual Juanchito Cutuplay \ ¿Que deseas hacer?: \n 1)Deseo hacer una suma \n 2)Deseo hacer una resta \n 3)Deseo hacer una multiplicacion \n 4)Deseo hacer una division \n 4)Deseo imprimir mi nombre")
 numero = int(input("Digite el numero: "))
 
 
@@ -58,10 +58,14 @@ def division():
       resta=resta/nm
     c = c+1
     while nm == 0:
-      print("Error")
-    nm = int(input("Dijite el numero que va multiplicar: "))
+      print("Error division by zero")
+      nm = int(input("Dijite el numero que va dividir: "))
     
   print("El resultado es: ",resta) 
+
+def impresion():
+  nombre = str(input("Digite su nombre: "))
+  print(nombre)
 
 if numero == 1:
   suma()
@@ -71,5 +75,7 @@ elif numero == 3:
   multiplicacion()
 elif numero == 4:
   division()
+elif numero == 5:
+  impresion()
 else:
   print("ERROR")
