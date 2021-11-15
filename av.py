@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1ac2to995-zrZeJ6JJjiLWeCHDLFY1c_K
 """
 
-print("Bienvenido al asistente virtual Juanchito Cutuplay \ ¿Que deseas hacer?: \n 1)Deseo hacer una suma \n 2)Deseo hacer una resta \n 3)Deseo hacer una multiplicacion \n 4)Deseo hacer una division \n 4)Deseo imprimir mi nombre")
+print("Bienvenido al asistente virtual Juanchito Cutuplay \n ¿Que deseas hacer?: \n 1)Deseo hacer una suma \n 2)Deseo hacer una resta \n 3)Deseo hacer una multiplicacion \n 4)Deseo hacer una division \n 4)Deseo imprimir mi nombre")
 numero = int(input("Digite el numero: "))
 
 
